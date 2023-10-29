@@ -1,0 +1,8 @@
+Bei der Einlesefunktion muss in Zeile 25 hinter dem = einfach args[0] stehen um den
+Dateinamen wie nach Aufgabenstellung vorgegeben einzulesen. So wie es in ihrer Version
+ist funktioniert das einlesen nicht Korrekt nach Schema.
+
+Desweiteren sollten sie im Teil c) Diskutieren wie sich eine Verdopplung der Instanzgröße n
+auf die Laufzeit auswirkt, dies fehlt jedoch.
+
+7/10
