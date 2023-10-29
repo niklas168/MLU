@@ -1,0 +1,3 @@
+Hilfstabelle = BOOK join (BOOK_RECOMMENDATION join (COURSE join (ENROLL join STUDENT)))
+
+pi BOOK.Book_ISBN, BOOK.Book_Title, BOOK_RECOMMENDATION.CourseId, Cname(sigma BOOK_RECOMMENDATION.Quarter = 'WiSe 2020' ∧ Name='Daniel'(Hilfstabelle))

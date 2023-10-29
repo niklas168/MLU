@@ -1,0 +1,2 @@
+JOINS = STUDENT join (ENROLL join COURSE)
+pi STUDENT.SSN, STUDENT.Name (sigma COURSE.Cname != 'Web-Programmierung'(JOINS))

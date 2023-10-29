@@ -1,0 +1,2 @@
+keine_Einschr = pi CourseId (COURSE) \ pi CourseId (ENROLL)
+pi CourseId, Cname (COURSE join keine_Einschr)

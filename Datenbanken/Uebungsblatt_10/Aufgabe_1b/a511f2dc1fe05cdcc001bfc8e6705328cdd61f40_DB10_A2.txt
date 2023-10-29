@@ -1,0 +1,2 @@
+JOINS = STUDENT join (ENROLL join (BOOK_RECOMMENDATION join BOOK))
+pi SSN, Name (sigma Book_Title = 'Algorithmen und Datenstrukturen' and Book_ISBN = '978-3495819459'(JOINS))

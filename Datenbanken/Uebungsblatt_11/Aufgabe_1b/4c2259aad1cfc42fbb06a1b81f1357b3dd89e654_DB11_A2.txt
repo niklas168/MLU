@@ -1,0 +1,2 @@
+nur_SWE= pi CourseId, SSN (sigma Cname ='SWE'(COURSE join ENROLL)) 
+pi Major (STUDENT join nur_SWE)
